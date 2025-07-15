@@ -16,6 +16,7 @@ public class Paciente {
     private String sintomas;
     private int prioridad;
     private boolean atendido;
+    private boolean cantidadAtendidos;
 
     public Paciente(String nombre, String apellido, long cedula, long telefono, int edad, String eps, String sintomas, int prioridad, boolean atendido) {
         this.nombre = nombre;
