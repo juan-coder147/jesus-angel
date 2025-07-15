@@ -7,6 +7,7 @@ package Clases;
 public class Paciente {
 
     private String nombre;
+    private String nombreDos;
     private String apellido;
     private long cedula;
     private long telefono;
